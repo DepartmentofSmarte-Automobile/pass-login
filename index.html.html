@@ -1,0 +1,82 @@
+<html>
+<meta charset=UTF-8" />
+<title>항공교육훈련포털 빠르게 예약하기</title>
+<script>
+function copyToClipboard(val) {
+  const t = document.createElement("textarea");
+  document.body.appendChild(t);
+  t.value = val;
+  t.select();
+  document.execCommand('copy');
+  document.body.removeChild(t);
+}
+</script>
+<TABLE BORDER= 1 style="border-collapse:collapse" align ="center" >
+ <CAPTION VALIGN = "bottom"></CAPTION>
+  <TR>
+   <TD>
+<center>
+<iframe width="800" height="500" src="https://www.naver.com">
+</iframe>
+</center>
+   </TD>
+  </TR>
+  <TR>
+   <TD colspan = "2" >
+<center>
+<A HREF="https://www.kaa.atims.kr/pubs/coltvedc/edcMngt/view/reqstList.do" target="_blank">
+   항공교육훈련포털
+</A>
+</center>
+   </TD>
+  </TR>
+  <TR>
+   <TD>
+<center>
+<button onclick="copy1()">아이디</button>
+<button onclick="copy2()">비밀번호</button>
+</center>
+   </TD>
+  </TR>
+<script>
+function copy1() {
+  copyToClipboard('jkjang61');
+  console.log('Copied!');
+}
+function copy2() {
+  copyToClipboard('#@jkj6106');
+  console.log('Copied!');
+}
+</script>
+  <TR>
+   <TD colspan = "2" >
+<center>
+   기입란
+</center>
+   </TD>
+  </TR>
+  <TR>
+   <TD>
+<center>
+<button onclick="copy3()">영남이공대학교</button>
+<button onclick="copy4()">스마트 e-자동차과</button>
+<button onclick="copy5()">교수</button>
+</center>
+   </TD>
+  </TR>
+<script>
+function copy3() {
+  copyToClipboard('영남이공대학교');
+  console.log('Copied!');
+}
+function copy4() {
+  copyToClipboard('스마트 e-자동차과');
+  console.log('Copied!');
+}
+function copy5() {
+  copyToClipboard('교수');
+  console.log('Copied!');
+}
+</script>
+</TABLE>
+</html>
